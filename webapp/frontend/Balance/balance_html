@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="balance.css" type="text/css"/> 
+    </head>
+    <body>
+        <div class="page">
+            <div class="header" id="navbar">
+                <div id = "left">
+                    <ul class="left-left">
+                        <li id="left"><img id="logo"src="data:image/jpeg;base64,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"></li>
+                        <li id="left">BANKING APPLICATION</li>
+                    </ul>
+                </div>
+                <ul class="right" id="nav-header-right">
+                    <li id = "left"><a href="operation.html" id="nav-home" class="nav-bar">Home</a></li>
+                    <li id = "left"><a href="about.html" id="nav-about" class="nav-bar" target="_blank">About Us</a></li>
+                    <li id="left">
+                        <div class="dropdown">
+                            <button class="dropbtn">Menu</button>
+                            <div class="dropdown-content">
+                            <a href="#">FAQs</a>
+                            <a href="#">Notifications</a>
+                            <a href="Initial.html" onclick="return confirm('Do you want to logout?');">Logout</a>                            
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="content">
+                <h2 id="logreg">Check Account Balance</h2>
+                
+                <div id="box">
+                    <ul class="entry">
+                        <li><input type="text" name="sendername" id="entries" placeholder="Username" required></li>
+                        <li><input type="submit" value="Submit" id="submit-button"></li>
+                    </ul>                 
+                </div>
+
+            </div>
+
+            <hr>
+
+            <p id="copyright">© Copyright 2022 Team Zeroization</p>
+            
+        </div>
+    </body>
+</html>
